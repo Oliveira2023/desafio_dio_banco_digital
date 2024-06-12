@@ -124,7 +124,7 @@ public class Main {
 	            	
 	            	
 	            	digital.getContas().forEach(conta -> {
-	            		System.out.println("fora do if");
+
 	            		if(conta.getCliente().equals(usuarioAtual[0]) && conta.tipoConta == TipoConta.CC) {
 	            			conta.sacar(valorTransf);
 	            			System.out.println(usuarioAtual);
