@@ -1,6 +1,7 @@
 package desafio_dio_banco_digital;
 
 
+
 public abstract class Conta implements Iconta {
 	
 	protected static final int AGENCIA_PADRAO = 1;
@@ -46,8 +47,6 @@ public abstract class Conta implements Iconta {
 
 	@Override
 	public void transferir(double valor) {
-//		this.sacar(valor);
-//		contaDestino.depositar(valor);
 		sacar(valor);
 		depositar(valor);
 		
